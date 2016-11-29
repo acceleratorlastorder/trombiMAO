@@ -1,0 +1,6 @@
+.flexbox{
+  display: flex;
+  border: 1px solid black;
+  width: 150px;
+  height: 500px;
+}
