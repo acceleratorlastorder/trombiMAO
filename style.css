@@ -1,24 +1,120 @@
-.flexbox{
-  display: flex;
-  flex-wrap: wrap;
-    justify-content: flex-start;;
+body {
+    margin: 0;
+    background-color: blue;
+}
+
+.name, .text, .language {
+    margin: 0px 8px 0px 8px;
+}
+
+.flexbox {
+    display: flex;
+    flex-wrap: wrap;
     align-items: flex-start;
-    margin: 2%;
+    margin: 5%;
 }
-body{
-  margin: 0;
-  background-color: blue;
+
+.profilcontainer {
+    display: flex;
+    width: 400px;
+    height: 600px;
+    flex-direction: column;
+    background-color: purple;
+    margin-top: 50px;
+    border: 1px solid black;
 }
-.profilcontainer{
-   flex: calc(100%/4);
-  background-color: purple;
-  margin: auto;
+
+.picture {
+    background-color: red;
+    border: 1px solid black;
+    background-size: cover;
+    background-repeat: no-repeat;
+    max-height: 65%;
+    margin: auto;
+    margin-top: 2%;
+    flex: 2;
 }
-.picture{
-  background-color: red;
-  margin: 5px;
+
+.name {
+  text-align: center;
+  font-size: 1.2em;
+    background-color: pink;
+    flex: 1;
+    max-height: 5%;
 }
-img{
-    margin: 5px;
-    max-width: 90%;
+
+.text {
+    background-color: green;
+    flex: 1;
+    max-height: 23%;
+}
+
+.language {
+    display: flex;
+    background-color: yellow;
+    flex: 1;
+    max-height: 7%;
+}
+
+.lol {
+    background-color: red;
+    margin: auto;
+    width: 30px;
+    height: 30px;
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.C {
+  background-image: url(icon/C.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.Cplusplus {
+  background-image: url(icon/C++.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.Csharp {
+  background-image: url(icon/C#.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.javascript {
+  background-image: url(icon/javascript.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.HTML {
+  background-image: url(icon/html5.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.CSS {
+  background-image: url(icon/CSS3.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.ruby {
+  background-image: url(icon/Ruby.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.phyton {
+  background-image: url(icon/python.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.PHP {
+  background-image: url(icon/php.png);
+  background-repeat: no-repeat;
+  background-size: contain;
 }
