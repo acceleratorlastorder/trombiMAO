@@ -44,6 +44,7 @@ body {
 }
 
 .text {
+  font-family: Georgia, sans-serif;
     background-color: green;
     flex: 1;
     max-height: 23%;
