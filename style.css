@@ -20,7 +20,7 @@ background-color: rgba(78, 110, 191, 0.7);
 
 .profilcontainer {
     display: flex;
-    width: 400px;
+    width: 350px;
     height: 650px;
     flex-direction: column;
     background-color: rgba(24, 47, 99, 0.3);
