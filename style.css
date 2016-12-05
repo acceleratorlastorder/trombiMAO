@@ -10,13 +10,11 @@ header{
 .name, .text, .language, .sociallink {
     margin: 0px 8px 0px 8px;
 }
-
 .flexbox {
     display: flex;
     flex-wrap: wrap;
     margin-left: auto;
     justify-content: center;
-
 }
 
 .profilcontainer {
@@ -24,7 +22,7 @@ header{
     width: 350px;
     height: 650px;
     flex-direction: column;
-	background-color: #fff;
+	  background-color: #fff;
     /*background-color: rgba(24, 47, 99, 0.3)*/;
     margin-top: 50px;
     margin-left: 1%;
@@ -32,13 +30,7 @@ header{
 }
 
 .picture {
-<<<<<<< HEAD
     border: 1px solid grey;
-    background-size: cover;
-    background-repeat: no-repeat;
-=======
-    border: 1px solid black;
->>>>>>> 8c75cf5b46d23e8bbfee2a423e4d90900add89af
     max-height: 65%;
     max-width: 80%;
     flex: 5;
