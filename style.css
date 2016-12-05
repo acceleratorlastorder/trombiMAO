@@ -9,7 +9,6 @@ body {
 .flexbox {
     display: flex;
     flex-wrap: wrap;
-    align-items:stretch;
     margin: 5%;
 
 }
@@ -17,7 +16,7 @@ body {
 .profilcontainer {
     display: flex;
     width: 400px;
-    height: 600px;
+    height: 650px;
     flex-direction: column;
     background-color: rgba(24, 47, 99, 0.3);
     margin-top: 50px;
@@ -45,19 +44,17 @@ body {
 .text {
   color: darkblue;
     flex: 1;
-    max-height: 16%;
 }
 
 .sociallink {
     display: flex;
     flex: 1;
-    max-height: 7%;
 }
 
 .language {
     display: flex;
     flex: 1;
-    max-height: 7%;
+    margin-top: 1%;
 }
 .iconlink{
   display: flex;
@@ -142,7 +139,11 @@ body {
     background-repeat: no-repeat;
     background-size: contain;
 }
-
+.jquery {
+    background-image: url(icon/language/jquery.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
 .HTML {
     background-image: url(icon/language/html5.png);
     background-repeat: no-repeat;
