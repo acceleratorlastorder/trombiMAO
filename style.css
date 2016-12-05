@@ -9,7 +9,8 @@ body {
 .flexbox {
     display: flex;
     flex-wrap: wrap;
-    margin: 5%;
+    margin-left: auto;
+    justify-content: center;
 
 }
 
@@ -170,6 +171,21 @@ body {
 
 .PHP {
     background-image: url(icon/language/php.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.ada {
+    background-image: url(icon/language/ada.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.bash {
+    background-image: url(icon/language/bash.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.bash {
+    background-image: url(icon/language/SQL.png);
     background-repeat: no-repeat;
     background-size: contain;
 }
