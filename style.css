@@ -31,10 +31,9 @@ background-color: rgba(78, 110, 191, 0.7);
 
 .picture {
     border: 1px solid black;
-    background-size: cover;
-    background-repeat: no-repeat;
     max-height: 65%;
-        max-width: 80%;
+    max-width: 80%;
+    flex: 5;
     margin: auto;
     margin-top: 2%;
 
