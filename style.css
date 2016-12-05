@@ -32,11 +32,16 @@ header{
 }
 
 .picture {
+<<<<<<< HEAD
     border: 1px solid grey;
     background-size: cover;
     background-repeat: no-repeat;
+=======
+    border: 1px solid black;
+>>>>>>> 8c75cf5b46d23e8bbfee2a423e4d90900add89af
     max-height: 65%;
-        max-width: 80%;
+    max-width: 80%;
+    flex: 5;
     margin: auto;
     margin-top: 2%;
 
