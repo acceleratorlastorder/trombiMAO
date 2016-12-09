@@ -90,7 +90,6 @@ background-color: rgba(78, 110, 191, 0.7);
 }
 */
 
-
 /*sociallink icon classes*/
 
 .twitter {
@@ -123,9 +122,7 @@ background-color: rgba(78, 110, 191, 0.7);
   background-size: contain;
 }
 
-
 /*language icon classes*/
-
 .C {
     background-image: url(icon/language/C.png);
     background-repeat: no-repeat;
