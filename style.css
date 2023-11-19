@@ -93,7 +93,6 @@ a, summary, p {
 }
 */
 
-
 /*sociallink icon classes*/
 
 .twitter {
@@ -126,9 +125,7 @@ a, summary, p {
   background-size: contain;
 }
 
-
 /*language icon classes*/
-
 .C {
     background-image: url(icon/language/C.png);
     background-repeat: no-repeat;
